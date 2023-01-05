@@ -1,0 +1,139 @@
+
+body {
+
+    background-color: blueviolet;
+}
+
+.all {
+    border: 3px solid black;
+    display: flex;
+    width: 25vmax;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+}
+
+.all h1 {
+    background-color: burlywood;
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 3vmax;
+    max-width: 90%;
+
+
+}
+
+.all li {
+    list-style: none;
+    max-width: 56vmax;
+    padding: 20px;
+    font-size: 2vmax;
+
+}
+
+img {
+    float: right;
+    border: 10px solid #2aa556;
+    border-radius: 449px;
+    background-size: contain;
+    width: 44vmax;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#facebook {
+    background-color: #c57fd7;
+    border: 3px solid seagreen;
+    padding: 11px;
+    border-radius: 50px;
+    width: 40px;
+}
+
+#insta {
+    background-color: #008045;
+    border: 3px solid purple;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#tweet {
+    background-color: royalblue;
+    border: 3px solid darkorange;
+    padding: 9px;
+    border-radius: 50px;
+}
+
+#facebook a {
+    border: 1px solid yellow;
+    background-color: #a5902a;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#insta a {
+    background-color: rgb(128, 0, 128);
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#tweet a {
+    background-color: royalblue;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+p {
+    
+    background-color: #f71212;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vmax;
+    max-width: 95%;
+}
+
+.social {
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        max-width: 25vmax;
+    }
+    .image{
+        margin-top: 5%;
+    }
+    p {
+    
+        background-color: #f71212;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3vmax;
+        max-width: 73%;
+    }
+}
